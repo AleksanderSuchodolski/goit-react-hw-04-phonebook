@@ -14,7 +14,6 @@ export const ContactForm = ({ onSubmit }) => {
 
   const onChangeInput = evt => {
     const { name, value } = evt.currentTarget;
-
     switch (name) {
       case 'name':
         setName(value);
