@@ -20,11 +20,11 @@ export const ContactForm = ({ onSubmit }) => {
         break;
       case 'number':
         setNumber(value);
+        break;
       default:
         break;
     }
   };
-
   const reset = () => {
     setName('');
     setNumber('');
